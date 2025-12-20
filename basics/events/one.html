@@ -41,7 +41,8 @@ document.getElementById('google').addEventListener('click',function(e){
 document.querySelector('#images').addEventListener('click',function(e){
     console.log(e.target.tagName); //deleting the image when ever we click on the tag
     if(e.target.tagName==='IMG'){
-        const removeIt = e.target.parentNode;
+        const removeIt = e.target.parentNode; //removes the whole li tag instead of just image
+        console.log(removeIt);
         removeIt.remove();
     }
 });

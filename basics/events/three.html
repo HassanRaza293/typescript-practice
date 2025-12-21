@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>hassan code</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+</body>
+<script>
+
+let callBack;
+    document.querySelector('#start').addEventListener('click', function () {
+        console.log("started");
+        callBack = setInterval(function () {
+            console.log("Hitesh");
+        }, 2000);
+
+    })
+
+    document.querySelector('#stop').addEventListener('click', function () {
+        clearInterval(callBack);
+        console.log("STOPPPED");
+    });
+</script>
+
+</html>

@@ -1,0 +1,6 @@
+#difference between normal function and an arrow function
+
+-normal function is dynamic while arrow function is lexical, 
+means arrow function will create problem with This keyword
+-normal function has argument while arrow functions has no arguments, it uses rest insead
+-normal function can be fully hoisted while arrow function can be hoisted

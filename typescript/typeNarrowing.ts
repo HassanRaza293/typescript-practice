@@ -82,7 +82,7 @@ function serveDrinks(item:Drinks|string){
 if(isDrink(item)){
     return `${item.cups} of ${item.type}`
 }
-return `${item} has 20 cups suugar here.`
+return `${item} has 20 cups sugar here.`
 
 }
 

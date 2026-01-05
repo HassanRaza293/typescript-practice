@@ -26,7 +26,7 @@ class ModernChai{
 
 
 class myChai{
-    protected token:string = "12322";
+    protected token:string = "12322";  //protected is used when we need to use property inside the class or inherit it another class 
 }
 class coffee extends myChai{
     getToken(){
@@ -56,6 +56,6 @@ show(): void {
     
 }
 getNum(): number {
- return 8;   
+return 8;   
 }
 }
